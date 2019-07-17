@@ -7,6 +7,16 @@ Con el primer paso hago el preprocessing.
 Luego ejecuto el compilador 1, que genera el .asm
 
 3. gcc -c c-main.c -o c-main.o
-Convierto al codigo asm a binario (objeto)
+Luego ejecuto el compilador 2, convierto al codigo asm a binario.
 
-4. 
+4. gfortran -S f-sum.f90 -o f-sum.asm
+Luego ejecuto el compilador 1, que genera el .asm
+
+5. gfortran -c f-sum.f90 -o f-sum.o
+Luego ejecuto el compilador 2, convierto al codigo asm a binario.
+
+6. gfortran -c f-sum.f90 -o f-sum.o
+Luego linkeo los dos archivos objeto.
+
+7. ./c-main.e
+Finalmente ejecuto el archivo .e
