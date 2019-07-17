@@ -1,0 +1,12 @@
+Pasos para compilar:
+
+1. gcc -E c-main.c -o c-main.pp.c
+Con el primer paso hago el preprocessing.
+
+2. gcc -S c-main.c -o c-main.asm
+Luego ejecuto el compilador 1, que genera el .asm
+
+3. gcc -c c-main.c -o c-main.o
+Convierto al codigo asm a binario (objeto)
+
+4. 

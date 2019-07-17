@@ -11,6 +11,7 @@ int main(int argc, char **argv)
     num = NUM;
     for (i=0; i < num; i++) {
         data[i] = i - 100 + 1;  /* NOTE: difference in array numbering */  
+		printf("%d \n",data[i]);
     }
 
     printf("sum=%d\n", sum_abs(data, num));

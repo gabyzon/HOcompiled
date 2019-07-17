@@ -1,0 +1,8 @@
+0000000000000000 	t add_abs											Es una funcion definida.
+								U _GLOBAL_OFFSET_TABLE_			Es un atributo indefinido
+000000000000002a 	T main												Es una funcion definida
+								U printf												Es una funcion indefinida
+0000000000000000 	r val1												Es una variable local estática
+0000000000000004 	R val2												Es una variable global
+0000000000000000 	d val3												Es una variable local estática
+0000000000000004 	D val4												Es una variable global
